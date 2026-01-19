@@ -54,3 +54,4 @@ result3 = calculate_bp(130, 70)
 print(f"환자 1은: {result1}입니다.")
 print(f"환자 2은: {result2}입니다.")
 print(f"환자 3은: {result3}입니다.")
+
