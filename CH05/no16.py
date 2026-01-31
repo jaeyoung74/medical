@@ -10,4 +10,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+df["BMI"] = df["몸무게"] / ((df["키"]/100) ** 2)
 print(df)
+ 
