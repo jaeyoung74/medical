@@ -15,3 +15,5 @@ print(df)
 result = df[df["나이"].between(30,39) & (df["성별"]=="여") & (df["혈당"]>=130)]
 print(result)
 
+
+
